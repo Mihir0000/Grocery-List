@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <!-- font awesome cnd -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- add items -->
+    <div class="addItems-container">
+        <h4 class="addItems-action">display action</h4>
+        <h2 class="addItems-title">add grocery items</h2>
+        <form>
+            <input type="text" class="addItems-input">
+            <button class="addItems-submit">submit here</button>
+        </form>
+    </div>
+
+    <!-- display items -->
+    <div class="displayItems-container">
+        <h4 class="displayItems-action">display action</h4>
+        <h2 class="displayItems-title">grocery items</h2>
+        <div class="grocery-list">
+            <!-- grocery items -->
+            <!-- successfully added in app.js -->
+            <!-- <div class="grocery-item">
+                <h4 class="grocery-item__title">item</h4>
+                <a href="#" class="grocery-item__link">
+                    <i class="far fa-trash-alt"></i>
+                </a>
+            </div> -->
+            <!-- end of grocery items -->
+        </div>
+        <button class="displayItems-clear">clear items</button>
+    </div>
+
+    <!-- main js -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
